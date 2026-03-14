@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西南大学2023級日本語学科 - 個人履歴書</title>
+    <style>
+        /* グローバルスタイル：薄い青のグラデーション背景、柔らかいフォント */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "MS Mincho", "Meiryo", sans-serif;
+        }
+        body {
+            background: linear-gradient(120deg, #e0f7fa, #b2ebf2);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        /* 履歴書カード：白い本体+角丸シャドウ、質感アップ */
+        .resume-card {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            padding: 45px;
+        }
+        /* ヘッダー：アバター+基本情報、中央レイアウト+モバイル対応 */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 35px;
+            margin-bottom: 35px;
+            border-bottom: 2px solid #00bcd4;
+            padding-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        /* 円形アバタースタイル：薄い青の枠+シャドウ、全体のスタイルに合わせる */
+        .avatar {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 5px solid #e0f7fa;
+            object-fit: cover;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+        }
+        .header-info {
+            text-align: center;
+        }
+        .header-info h1 {
+            color: #00796b;
+            font-size: 34px;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+        .header-info .base-info {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        /* セクションタイトル：アイコン+配色、視覚的階層を強化 */
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #0097a7;
+            font-size: 24px;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            padding-bottom: 8px;
+            border-bottom: 1px dashed #b2ebf2;
+        }
+        .section h2::before {
+            content: "●";
+            color: #00bcd4;
+            margin-right: 12px;
+            font-size: 22px;
+        }
+        /* セクションコンテンツ：統一された字下げ+行間、読みやすさ向上 */
+        .section-content {
+            padding-left: 24px;
+            line-height: 2;
+            color: #333;
+            font-size: 15px;
+        }
+        .section-content p {
+            margin-bottom: 10px;
+        }
+        /* リストスタイル：小さな四角いアイコン、薄い青のメインカラーに合わせる */
+        .section-content ul {
+            list-style: none;
+            margin-left: 5px;
+        }
+        .section-content li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 18px;
+        }
+        .section-content li::before {
+            content: "■";
+            position: absolute;
+            left: 0;
+            color: #4dd0e1;
+            font-size: 10px;
+            top: 10px;
+        }
+        /* スキル/証明書タグ：角丸+薄い青の背景、重点を強調 */
+        .tag {
+            display: inline-block;
+            background: #e0f2f1;
+            color: #00796b;
+            padding: 6px 14px;
+            border-radius: 25px;
+            margin: 6px 10px 6px 0;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        /* ランキング/スコアを強調するスタイル */
+        .highlight {
+            color: #00796b;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-card">
+        <!-- ヘッダー：アバター+核心的な基本情報 -->
+        <div class="header">
+            <img src="https://s41.ax1x.com/2026/03/14/peERkNT.jpg" alt="個人アバター" class="avatar">
+            <div class="header-info">
+                <h1>李夢</h1>
+                <p class="base-info">西南大学 | 2023級日本語学科 | 原籍：河南省<br>
+                連絡先メール：3367327376@qq.com | 携帯電話：13603766571</p>
+            </div>
+        </div>
+
+        <!-- 学業成績：核心的な強みを優先的に表示（ランキング+証明書） -->
+        <div class="section">
+            <h2>学業成績と証明書</h2>
+            <div class="section-content">
+                <p>📊 学科ランキング：2年次生 <span class="highlight">1/13</span> | 総成績 <span class="highlight">3/13</span></p>
+                <p>📜 核心的な証明書：</p>
+                <ul>
+                    <li>日本語能力試験N1合格証明書（<span class="highlight">125点</span>）</li>
+                    <li>日本語専攻4級試験（成績良好）</li>
+                    <li>全国コンピューターレベル2試験（成績良好）</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 受賞歴：単独セクション、栄誉を強調 -->
+        <div class="section">
+            <h2>受賞歴</h2>
+            <div class="section-content">
+                <span class="tag">似鳥奨学金</span>
+                <span class="tag">大学レベル二等奨学金</span>
+            </div>
+        </div>
+
+        <!-- 学生役職：簡潔に就任情報を表示 -->
+        <div class="section">
+            <h2>学生役職</h2>
+            <div class="section-content">
+                <p>🏫 クラス生活委員：クラスの日常事務調整、生活関連イベントの企画・運営などを担当する</p>
+            </div>
+        </div>
+
+        <!-- 実践経験：日本語関連のボランティア活動を強調 -->
+        <div class="section">
+            <h2>実践経験</h2>
+            <div class="section-content">
+                <p>🤝 日本語スピーチコンテストボランティア：大学レベル/市レベルの日本語スピーチコンテストのボランティア業務に複数回参加し、出場者の誘導、会場調整などを担当。日本語の応用能力とコミュニケーション能力を向上させた。</p>
+            </div>
+        </div>
+
+        <!-- 科研プロジェクト：参加プロジェクトと成果を明確に -->
+        <div class="section">
+            <h2>科研プロジェクト</h2>
+            <div class="section-content">
+                <ul>
+                    <li>含弘杯科研コンテストプロジェクトに参加：文字整理、資料調査及び論文作成を担当し、関連研究論文を完成させた。</li>
+                    <li>博学杯学術プロジェクトに参加：文献整理、内容改正などの文字関連業務を担当し、プロジェクト成果の出力を支援した。</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 個人の興味：簡潔に表示 -->
+        <div class="section">
+            <h2>個人の興味</h2>
+            <div class="section-content">
+                <p>🎙️ ポッドキャスト（世界経済動向、個人の成長、日本文化などの内容に関心を持つ）</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
